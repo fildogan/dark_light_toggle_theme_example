@@ -1,4 +1,5 @@
 import 'package:dark_light_toggle_theme_example/enum.dart';
+import 'package:dark_light_toggle_theme_example/preferences_service.dart';
 import 'package:flutter/material.dart';
 
 class MyTheme with ChangeNotifier {
@@ -34,14 +35,17 @@ class MyTheme with ChangeNotifier {
     switch (index) {
       case 0:
         selectedTheme = SelectedTheme.light;
+        PreferencesService().saveTheme(SelectedTheme.light);
         notifyListeners();
         break;
       case 1:
         selectedTheme = SelectedTheme.dark;
+        PreferencesService().saveTheme(SelectedTheme.dark);
         notifyListeners();
         break;
       case 2:
         selectedTheme = SelectedTheme.system;
+        PreferencesService().saveTheme(SelectedTheme.system);
         notifyListeners();
         break;
     }
