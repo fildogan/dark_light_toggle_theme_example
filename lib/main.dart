@@ -1,8 +1,11 @@
 import 'package:dark_light_toggle_theme_example/config.dart';
 import 'package:dark_light_toggle_theme_example/home_page.dart';
+import 'package:dark_light_toggle_theme_example/preferences_service.dart';
 import 'package:flutter/material.dart';
 
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  currentTheme.selectedTheme = await PreferencesService().getTheme();
   runApp(const MyApp());
 }
 
