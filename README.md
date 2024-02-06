@@ -1,9 +1,21 @@
 # Theme Toggle Example
 
-A code example of a toggle switch for changing theme. 
+Explore this Flutter code example showcasing a seamless toggle switch for theme changes. This simple implementation provides a practical demonstration of incorporating a theme toggle functionality into your Flutter app.
 
-## Introduction & main goals
+## Packages Used and Their Licenses:
 
-Welcome to MyInvoices, a simple invoice management app! The app is designed for storing, and managing invoices. The app also allows for easy uploading of PDF invoices, simply select the file from your device and it will be securely stored within the app for quick and convenient access at any time.
+[shared_preferences](https://pub.dev/packages/shared_preferences/license),
+[toggle_switch](https://pub.dev/packages/toggle_switch/license)
 
-<img src="https://github.com/fildogan/dark_light_toggle_theme_example/raw/main/gif/1.1.1/HomePage.png"  width=25% height=50%>
+## Preview
+Check out the visual preview of the theme toggle in action:
+
+<img src="https://raw.githubusercontent.com/fildogan/dark_light_toggle_theme_example/master/gif/preview.gif"  width=25% height=50%>
+
+## How to Use
+
+1. Clone this repository.
+2. Open the project in your preferred Flutter development environment.
+3. Run the app on an emulator or physical device.
+
+Feel free to integrate and customize this example into your projects, enhancing the user experience with a seamless theme switch. Happy coding!
