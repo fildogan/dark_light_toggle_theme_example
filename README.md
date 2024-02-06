@@ -10,7 +10,8 @@ Explore this Flutter code example showcasing a seamless toggle switch for theme 
 ## Preview
 Check out the visual preview of the theme toggle in action:
 
-<img src="https://raw.githubusercontent.com/fildogan/dark_light_toggle_theme_example/master/gif/preview.gif"  width=25% height=50%>
+<img src="https://github.com/fildogan/dark_light_toggle_theme_example/blob/main/gif/preview.gif"  width=25% height=50%>
+
 
 ## How to Use
 
