@@ -1,16 +1,9 @@
-# dark_light_toggle_theme_example
+# Theme Toggle Example
 
-A new Flutter project.
+A code example of a toggle switch for changing theme. 
 
-## Getting Started
+## Introduction & main goals
 
-This project is a starting point for a Flutter application.
+Welcome to MyInvoices, a simple invoice management app! The app is designed for storing, and managing invoices. The app also allows for easy uploading of PDF invoices, simply select the file from your device and it will be securely stored within the app for quick and convenient access at any time.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<img src="https://github.com/fildogan/dark_light_toggle_theme_example/raw/main/gif/1.1.1/HomePage.png"  width=25% height=50%>
